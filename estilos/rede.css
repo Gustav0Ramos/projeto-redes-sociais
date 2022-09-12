@@ -15,8 +15,13 @@ html, body {
 main {
     height: 100vh;
     position: relative;
-    background: url('../pacote-d013/imagens/images.jpg') no-repeat;
 } 
+
+body {
+    background: url('../pacote-d013/imagens/tela_madeira5.jpg') top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 section#telefone {
     position: absolute;
@@ -24,9 +29,17 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    border-radius: 36px;
-    height: 389px;
-    width: 192px;
-    background-color: blue;
-    background: url('../pacote-d013/imagens/iphone.png') center;
+    border-radius: 25px;
+    height: 384px;
+    width: 184px;
+    background: url('../pacote-d013/imagens/Iphone.png') no-repeat center;
+}
+iframe#tela {
+    position: relative;
+    border-radius: 16px;
+    top: 09px;
+    left: 07px;
+    width: 171px;
+    height: 368px;
+    
 }
