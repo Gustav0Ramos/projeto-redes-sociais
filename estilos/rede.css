@@ -49,10 +49,10 @@ section#redes-sociais{
 
 section#redes-sociais img:hover {
     border: 2px solid rgba(252, 252, 252, 0.884);
-    box-sizing: border-box;
-    transform: translate(-3px, -3px);
+    box-sizing: border-box; /* Faz o botão não pular para fora como se estivesse fora do seu box */
+    transform: translate(-3px, -3px); /* Faz com que o a caixa vá para a esquerda e para cima ao passar o mouse */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.801);
-    transition: transform .2s;
+    transition: transform .2s, border .1s;
 }
 
 img#logo {
